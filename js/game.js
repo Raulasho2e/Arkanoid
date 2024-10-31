@@ -13,13 +13,13 @@ export var display = {
 export var ball = {
     x: display.canvas.width / 2,
     y: display.canvas.height - 30,
-    dx: 2,
-    dy: -2,
+    dx: 100,
+    dy: -1,
     radius: 5,
 }
 
 export var paddle = {
-    width: 75,
+    width: 900,
     height: 10,
     x: (display.canvas.width - 75) / 2,
     rightPressed: false,
